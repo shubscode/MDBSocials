@@ -11,6 +11,10 @@
 		514CFA82204BD5280011FD04 /* InterestedPplTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514CFA81204BD5280011FD04 /* InterestedPplTableViewCell.swift */; };
 		514CFA84204D41A50011FD04 /* MyEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514CFA83204D41A50011FD04 /* MyEventsViewController.swift */; };
 		515B5E5920493F1F00004E65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B5E5820493F1E00004E65 /* Constants.swift */; };
+		5184BEC52058E32F006586E8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5184BEC42058E32F006586E8 /* SignInView.swift */; };
+		5184BEC72058E9BA006586E8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5184BEC62058E9BA006586E8 /* SignUpView.swift */; };
+		5184BEC92058F5EC006586E8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5184BEC82058F5EC006586E8 /* DetailView.swift */; };
+		5184BECB20599A3D006586E8 /* NewSocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5184BECA20599A3D006586E8 /* NewSocialView.swift */; };
 		51BDAFFD203B6E3E003914F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BDAFFC203B6E3E003914F5 /* AppDelegate.swift */; };
 		51BDAFFF203B6E3E003914F5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BDAFFE203B6E3E003914F5 /* SignInViewController.swift */; };
 		51BDB002203B6E3E003914F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BDB000203B6E3E003914F5 /* Main.storyboard */; };
@@ -31,6 +35,7 @@
 		51BDB04C203CEA77003914F5 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BDB04B203CEA77003914F5 /* EventCollectionViewCell.swift */; };
 		51BDB04F203D05CD003914F5 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BDB04E203D05CD003914F5 /* ImagePickerViewController.swift */; };
 		51F23758204E8A5500C20A18 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F23757204E8A5500C20A18 /* TabBarController.swift */; };
+		51FE69412058D74200435220 /* LyftHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE69402058D74200435220 /* LyftHelper.swift */; };
 		963F2F0100A960DD2B3ABD9A /* Pods_MDB_SocialsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C440DAFD3F44D30BE76507AF /* Pods_MDB_SocialsTests.framework */; };
 		C997EC6B929B6E6700CE2DF2 /* Pods_MDB_Socials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7EC24EE865FB30B63D43BC /* Pods_MDB_Socials.framework */; };
 		EE71EE7FD07731A814F55777 /* Pods_MDB_SocialsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E6684A3027F62111350F45 /* Pods_MDB_SocialsUITests.framework */; };
@@ -63,6 +68,10 @@
 		514CFA81204BD5280011FD04 /* InterestedPplTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestedPplTableViewCell.swift; sourceTree = "<group>"; };
 		514CFA83204D41A50011FD04 /* MyEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventsViewController.swift; sourceTree = "<group>"; };
 		515B5E5820493F1E00004E65 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5184BEC42058E32F006586E8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5184BEC62058E9BA006586E8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5184BEC82058F5EC006586E8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5184BECA20599A3D006586E8 /* NewSocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSocialView.swift; sourceTree = "<group>"; };
 		51BDAFF9203B6E3E003914F5 /* MDB Socials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDB Socials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BDAFFC203B6E3E003914F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51BDAFFE203B6E3E003914F5 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +98,7 @@
 		51BDB04B203CEA77003914F5 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
 		51BDB04E203D05CD003914F5 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		51F23757204E8A5500C20A18 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		51FE69402058D74200435220 /* LyftHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftHelper.swift; sourceTree = "<group>"; };
 		AA7EC24EE865FB30B63D43BC /* Pods_MDB_Socials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDB_Socials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBFD98EC3935F835E8EDF99 /* Pods-MDB SocialsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDB SocialsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDB SocialsTests/Pods-MDB SocialsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C440DAFD3F44D30BE76507AF /* Pods_MDB_SocialsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDB_SocialsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				51BDB041203B9EC1003914F5 /* FirebaseAPIClient.swift */,
+				51FE69402058D74200435220 /* LyftHelper.swift */,
 				51BDB049203BB862003914F5 /* UserAuthHelper.swift */,
 			);
 			path = "Firebase Client";
@@ -165,6 +176,18 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		5184BEC12058E1F1006586E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5184BEC42058E32F006586E8 /* SignInView.swift */,
+				5184BEC82058F5EC006586E8 /* DetailView.swift */,
+				5184BEC62058E9BA006586E8 /* SignUpView.swift */,
+				5184BECA20599A3D006586E8 /* NewSocialView.swift */,
+			);
+			name = Views;
+			path = Model/Views;
+			sourceTree = "<group>";
+		};
 		51BDAFF0203B6E3E003914F5 = {
 			isa = PBXGroup;
 			children = (
@@ -194,9 +217,9 @@
 				51BDAFFC203B6E3E003914F5 /* AppDelegate.swift */,
 				515B5E5720493EFA00004E65 /* Constants */,
 				512783E3204B84BD009228DB /* Firebase Client */,
+				5184BEC12058E1F1006586E8 /* Views */,
 				51BDB043203B9F57003914F5 /* Model */,
 				51BDB039203B9D43003914F5 /* Controllers */,
-				514CFA85204D41B20011FD04 /* MyEvents */,
 				51BDB000203B6E3E003914F5 /* Main.storyboard */,
 				51BDB006203B6E3E003914F5 /* Assets.xcassets */,
 				51BDB008203B6E3E003914F5 /* LaunchScreen.storyboard */,
@@ -227,6 +250,7 @@
 		51BDB039203B9D43003914F5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				514CFA85204D41B20011FD04 /* MyEvents */,
 				51BDB03A203B9D94003914F5 /* SignInController */,
 				51BDB03C203B9DC1003914F5 /* SignUpViewController */,
 				51BDB03F203B9E34003914F5 /* NewSocialViewController */,
@@ -517,6 +541,7 @@
 				"${BUILT_PRODUCTS_DIR}/HanekeSwift/Haneke.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/LocationPicker/LocationPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/LyftSDK/LyftSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/MKSpinner/MKSpinner.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
@@ -541,6 +566,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Haneke.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LyftSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MKSpinner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
@@ -667,15 +693,20 @@
 				514CFA82204BD5280011FD04 /* InterestedPplTableViewCell.swift in Sources */,
 				51F23758204E8A5500C20A18 /* TabBarController.swift in Sources */,
 				51BDB04A203BB862003914F5 /* UserAuthHelper.swift in Sources */,
+				5184BECB20599A3D006586E8 /* NewSocialView.swift in Sources */,
+				5184BEC92058F5EC006586E8 /* DetailView.swift in Sources */,
 				51BDAFFF203B6E3E003914F5 /* SignInViewController.swift in Sources */,
 				51BDB032203B8F79003914F5 /* FeedViewController.swift in Sources */,
 				51BDB036203B8FCF003914F5 /* NewSocialViewController.swift in Sources */,
 				51BDB042203B9EC1003914F5 /* FirebaseAPIClient.swift in Sources */,
 				51BDB04F203D05CD003914F5 /* ImagePickerViewController.swift in Sources */,
+				5184BEC72058E9BA006586E8 /* SignUpView.swift in Sources */,
 				51BDB046203B9F8C003914F5 /* Users.swift in Sources */,
 				51BDB034203B8F8D003914F5 /* DetailViewController.swift in Sources */,
 				51BDB030203B8F34003914F5 /* SignUpViewController.swift in Sources */,
 				515B5E5920493F1F00004E65 /* Constants.swift in Sources */,
+				5184BEC52058E32F006586E8 /* SignInView.swift in Sources */,
+				51FE69412058D74200435220 /* LyftHelper.swift in Sources */,
 				514CFA7F204BD40F0011FD04 /* InterestedUsersViewController.swift in Sources */,
 				51BDAFFD203B6E3E003914F5 /* AppDelegate.swift in Sources */,
 				514CFA84204D41A50011FD04 /* MyEventsViewController.swift in Sources */,

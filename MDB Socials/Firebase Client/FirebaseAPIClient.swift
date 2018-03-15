@@ -16,6 +16,9 @@ import ObjectMapper
 import SwiftyJSON
 import CoreLocation
 
+
+import SwiftyBeaver
+
 class FirebaseAPIClient {
     
     
@@ -58,7 +61,7 @@ class FirebaseAPIClient {
             MKFullSpinner.show("Creating User...")
             imageRef.putData(data, metadata: nil) { (metadata, error) in
                 guard let metadata = metadata else {
-                    print(error)
+                    log.error("ERROR: \(error)")
                     MKFullSpinner.hide()
                     return
                 }
@@ -84,7 +87,7 @@ class FirebaseAPIClient {
             let imageRef = Storage.storage().reference().child("postImages/" + name.trimmingCharacters(in: .whitespaces) + ".png")
             imageRef.putData(data, metadata: nil) { (metadata, error) in
                 guard let metadata = metadata else {
-                    print("Error uploading")
+                   log.error("ERROR UPLOADING")
                     MKFullSpinner.hide()
                     return
                 }
@@ -107,7 +110,7 @@ class FirebaseAPIClient {
                         arr = [key]
                         userRef.setValue(arr)
                     } else {
-                        print("Adding to Array")
+                        log.verbose("Adding to Array")
                         var myeventsArray =  arr as! [String]
                         myeventsArray.append(key)
                         userRef.setValue(myeventsArray)

@@ -64,6 +64,7 @@ PODS:
   - JGProgressHUD (2.0)
   - leveldb-library (1.20)
   - LocationPicker (1.0.3)
+  - LyftSDK/API (1.0.6)
   - MKSpinner (1.4)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
@@ -104,6 +105,7 @@ DEPENDENCIES:
   - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`, branch `feature/swift-3`)
   - JGProgressHUD
   - LocationPicker
+  - LyftSDK/API
   - MKSpinner
   - ObjectMapper
   - PromiseKit (~> 4.0)
@@ -151,6 +153,7 @@ SPEC CHECKSUMS:
   JGProgressHUD: c402c0f41fc291ca7e33bba2f999118d9682dd9c
   leveldb-library: 44ef425bfde64f5b41daef86b38db2d13edbbee1
   LocationPicker: d54d59c9d14d52496e3e8167e67f13440d6bcf1e
+  LyftSDK: 17eb5abdb12f72203b68a1eac982823bfadda743
   MKSpinner: 342cc7f8fbb365dd139a8ad28a0a987cca440a3a
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
@@ -160,6 +163,6 @@ SPEC CHECKSUMS:
   SwiftyBeaver: 91057725648ee4980308f1650af077d04b3654a0
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: bf405f6d6d85af72912552fc1fd0d2c15b10c3b9
+PODFILE CHECKSUM: 2b4c80562216e51db8206ea1b37b510ae4cd6545
 
 COCOAPODS: 1.4.0

@@ -10,6 +10,8 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 
+import SwiftyBeaver
+
 class FeedViewController: UIViewController {
 
     var backgroundImage: UIImageView!
@@ -151,6 +153,7 @@ extension FeedViewController: UICollectionViewDelegate, UICollectionViewDataSour
             cell.name = selectedEvent.posterName!
         }
         print(selectedEvent.posterName)
+        log.info("Event poster: \(selectedEvent.posterName)")
         
         //cell.name = selectedEvent.posterName
         let numInterested = selectedEvent.getNumInterested()

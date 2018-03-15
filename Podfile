@@ -27,6 +27,7 @@ target 'MDB Socials' do
   pod 'ObjectMapper'
   pod 'SwiftyBeaver'
   pod 'LocationPicker'
+  pod 'LyftSDK/API'
   target 'MDB SocialsTests' do
     inherit! :search_paths
     # Pods for testing
