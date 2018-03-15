@@ -185,8 +185,10 @@ class DetailView: UIView {
 //        self.addSubview(lyftLogo)
         print("WHY AINT THIS SHOWING UP")
         lyftInfoLabel = UILabel(frame: CGRect(x: self.frame.width * 0.37, y: self.frame.height * 0.861, width: self.frame.width * 0.2667, height: self.frame.height * 0.059))
-        lyftInfoLabel.textColor = .white
+        lyftInfoLabel.textColor = Constants.loginColor
         lyftInfoLabel.numberOfLines = 2
+        lyftInfoLabel.layer.cornerRadius = 15
+        lyftInfoLabel.backgroundColor = UIColor.white
         self.addSubview(lyftInfoLabel)
     }
     
@@ -206,9 +208,10 @@ class DetailView: UIView {
     
     func queryLyft(){
         let eventLocation = CLLocationCoordinate2DMake(viewController.post.latitude!, viewController.post.longitude!)
+        print("QUERYING LUFT")
         if viewController.currentLocation != nil {
             LyftHelper.getRideEstimate(pickup: viewController.currentLocation!, dropoff: eventLocation) { costEstimate in
-                self.lyftInfoLabel.text = "A Lyft ride will cost $" + String(describing: costEstimate.estimate!.maxEstimate.amount) + " from your location."
+                self.lyftInfoLabel.text = "Lyft Cost $" + String(describing: costEstimate.estimate!.maxEstimate.amount) + " from your location."
             }
         } else {
             print("Cant get current location")

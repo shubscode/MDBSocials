@@ -66,6 +66,7 @@ extension DetailViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         print("Updated location")
         guard let currentLoc: CLLocationCoordinate2D = manager.location?.coordinate else { return }
+        print("CURRENT LOCATION IS  \(currentLoc)")
         self.currentLocation = currentLoc
     }
 }
